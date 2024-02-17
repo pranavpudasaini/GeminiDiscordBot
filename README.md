@@ -29,6 +29,6 @@ Create an AI Discord bot with Google's Gemini Pro for **free**.
 6. **Run docker container with the environment variable file:**
 
     ```sh
-    docker run --rm gemini:v1
+    docker run --env-file=.env --rm gemini:v1
     ```
 
